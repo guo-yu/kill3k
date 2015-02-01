@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": "bin/cli",
   "scripts": {
-    "start": "bin/cli"
+    "dev": "bin/cli"
   },
   "repository": {
     "type": "git",
