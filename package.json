@@ -1,6 +1,6 @@
 {
   "name": "kill3k",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Just kill process running on port 3000",
   "main": "index.js",
   "bin": "bin/cli",
