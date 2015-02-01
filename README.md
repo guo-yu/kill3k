@@ -4,12 +4,19 @@ Just kill process running on port 3000
 
 ### Installation
 ```bash
-$ npm install kill3k
+$ [sudo] npm install kill3k -g
+```
+
+### Useage
+```bash
+$ kill3k [port]
 ```
 
 ### Example
 ```js
 var kill3k = require('kill3k');
+
+kill3k(3000)
 ```
 
 ### API
