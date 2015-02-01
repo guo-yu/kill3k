@@ -1,0 +1,28 @@
+{
+  "name": "kill3k",
+  "version": "0.1.0",
+  "description": "Just kill process running on port 3000",
+  "main": "index.js",
+  "bin": "bin/cli",
+  "scripts": {
+    "start": "bin/cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turingou/kill3k.git"
+  },
+  "keywords": [
+    "kill",
+    "port",
+    "3000"
+  ],
+  "author": "turing <o.u.turing@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingou/kill3k/issues"
+  },
+  "homepage": "https://github.com/turingou/kill3k",
+  "dependencies": {
+    "exeq": "^2.0.2"
+  }
+}
