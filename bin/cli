@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-require('../index')(3000);
+var port = Array.prototype.slice.call(process.argv, 2);
+
+require('../index')(port || 3000);

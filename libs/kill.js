@@ -16,7 +16,7 @@ function kill(port) {
 
 function goodbye(p) {
   console.log(
-    '  Process running on port %s have been killed, \n  Have a nice day :D\n', 
+    '\n  Process running on port %s have been killed, \n  Have a nice day :D\n', 
     p
   );
 }
