@@ -1,5 +1,4 @@
 #!/usr/bin/env node
 
-var port = Array.prototype.slice.call(process.argv, 2);
-
-require('../index')(port.length > 0 ? port[0] : 3000);
+var port = Array.prototype.slice.call(process.argv, 2)
+require('../dist/kill')(port.length > 0 ? port[0] : 3000)

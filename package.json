@@ -1,10 +1,11 @@
 {
   "name": "kill3k",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Just kill process running on port 3000",
-  "main": "index.js",
+  "main": "dist/kill.js",
   "bin": "bin/cli",
   "scripts": {
+    "build": "node_modules/.bin/babel libs --out-dir dist --source-maps --watch",
     "dev": "bin/cli"
   },
   "repository": {
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/turingou/kill3k",
   "dependencies": {
-    "exeq": "^2.0.2"
+    "bluebird": "^2.9.34",
+    "exeq": "2.0.2"
   }
 }
